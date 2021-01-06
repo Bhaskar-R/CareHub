@@ -4,7 +4,6 @@ Hospital Management System
 Link - [https://random-hospital.000webhostapp.com/]
 <br />
 Done as project for DBMS
-
 <br />
 
 The Website has different logins for Doctors,Nurses and Patients
