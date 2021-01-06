@@ -1,0 +1,429 @@
+body {
+    text-align: center;
+}
+
+.buttons-section {
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    float: left;
+    width: 100%;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.buttons-section a {
+    text-decoration: none;
+}
+
+.buttons {
+    width: auto;
+    margin: 0 auto;
+    display: table;
+}
+
+.buttons a {
+    width: 300px;
+    float: left;
+    margin: 0 10px;
+    padding: 10px 0;
+    background: #0061AF;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    font-family: candara;
+    font-size: 15px;
+    border: 1px solid #0061af;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+hr {
+    border-style: none;
+    border-top: solid;
+    border-width: 2px;
+    width: 9%;
+    color: #003da5;
+}
+
+.hybrid {
+    border-style: none;
+    border-top: solid;
+    border-width: 2px;
+    width: 6%;
+    color: #003da5;
+}
+
+.hybrid1 {
+    border-style: none;
+    border-top: solid;
+    border-width: 2px;
+    width: 4%;
+    color: #003da5;
+}
+
+#example1 {
+    box-sizing: content-box;
+    width: 230px;
+    height: 260px;
+    padding: 50px 50px;
+    box-shadow: 2px 2px 15px #888888;
+    margin: 20px;
+    display: inline-block;
+}
+
+#example2 {
+    box-sizing: content-box;
+    width: 200px;
+    height: 100px;
+    padding: 50px 50px;
+    box-shadow: 2px 2px 15px #888888;
+    margin: 30px;
+    display: inline-block;
+}
+#example3 {
+    box-sizing: content-box;
+    width: 200px;
+    height: 120px;
+    padding: 50px 50px;
+    box-shadow: 2px 2px 15px #888888;
+    margin: 30px;
+    display: inline-block;
+}
+#example4 {
+    box-sizing: content-box;
+    width: 200px;
+    height: 160px;
+    padding: 50px 50px;
+    box-shadow: 2px 2px 15px #888888;
+    margin: 30px;
+    display: inline-block;
+}
+#example5 {
+    box-sizing: content-box;
+    width: 200px;
+    height: 230px;
+    padding: 50px 50px;
+    box-shadow: 2px 2px 15px #888888;
+    margin: 30px;
+    display: inline-block;
+}
+#example6 {
+    box-sizing: content-box;
+    width: 250px;
+    height: 310px;
+    padding: 50px 50px;
+    box-shadow: 2px 2px 15px #888888;
+    margin: 30px;
+    display: inline-block;
+}
+
+.h4 {
+    font-size: 17px;
+    line-height: 16x;
+    color: #121212;
+    padding-bottom: 20px;
+}
+
+.classified {
+    font-size: 14px;
+    line-height: 17px;
+    color: #12121280;
+    padding-bottom: 5px;
+}
+
+.classified1 {
+    font-size: 14px;
+    line-height: 17px;
+    color: #30475e;
+    padding-bottom: 5px;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.icons-img {
+    margin: 40px 55px 10px;
+}
+
+.testimonial-row {
+    margin: 10px auto 30px auto;
+    width: 50%;
+    text-align: center;
+}
+
+.testimonial-row2 {
+    margin: 10px auto 30px;
+    width: 50%;
+    text-align: center;
+}
+
+.smoking-img {
+    width: 30%;
+    float: left;
+    margin: 11px 10px 0px;
+}
+
+.heartattack-img {
+    width: 30%;
+    float: right;
+    margin: 1px 10px 20px;
+}
+
+.contactus {
+    text-align: left;
+    width: 100%;
+    float: left;
+}
+
+.wrap {
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+}
+
+.contactform {
+    width: 80%;
+    display: table;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.contactformlt {
+    width: 60%;
+    float: left;
+    padding: 0 20px;
+}
+
+.contactformRt {
+    width: 30%;
+    float: left;
+    padding: 20px;
+}
+
+.con-getintouch {
+    width: 100%;
+    float: left;
+}
+
+.con-getintouch h1 {
+    width: 100%;
+    float: left;
+    color: #9a9696;
+    font-size: 40px;
+}
+
+.con-getintouch p {
+    width: auto;
+    float: left;
+    color: #9a9696;
+    padding: 10px 0;
+    line-height: 25px;
+}
+
+.contactform form {
+    width: 100%;
+    float: left;
+}
+
+.contactCont {
+    width: 48%;
+    float: left;
+    margin: 10px 1%;
+}
+
+.contactCont2 {
+    width: 98%;
+    float: left;
+    margin: 0 1%;
+}
+
+.messageArea {
+    width: 100%;
+    float: left;
+    margin: 10px 1%;
+}
+
+.submitBtn {
+    width: 100%;
+    float: left;
+    margin: 1%;
+}
+
+.submitBtn a {
+    text-decoration: none;
+}
+
+.contactform label {
+    width: 100%;
+    float: left;
+    margin: 0 0 5px 0;
+    color: #c4c8cb;
+}
+
+.contactform input {
+    width: 100%;
+    float: left;
+    margin: 5px 0;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #c4c8cb;
+    border-radius: 5px;
+}
+
+.messageArea label {
+    width: 100%;
+    float: left;
+    margin: 0 0 5px 0;
+    color: #c4c8cb;
+}
+
+.messageArea textarea {
+    width: 98%;
+    height: 150px;
+    float: left;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #c4c8cb;
+}
+
+.submitBtn {
+    width: 100%;
+    float: left;
+    margin: 1%;
+}
+
+.submitBtn a {
+    width: auto;
+    float: left;
+    background: #273E50;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    font-family: 'ResamitzBold';
+}
+
+.addHead {
+    width: 100%;
+    float: left;
+    padding: 5px 0;
+}
+
+.addHead h3 {
+    width: 100%;
+    float: left;
+    color: #9a9696;
+}
+
+.title-line {
+    padding: 10px 0 0;
+    float: left;
+}
+
+.title-line:before {
+    background: #c4c8cb;
+    content: "";
+    display: block;
+    height: 1px;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.title-line:after {
+    background: #74c044;
+    content: "";
+    display: block;
+    height: 3px;
+    position: relative;
+    top: -2px;
+    float: left;
+    width: 25px;
+}
+
+.addCont {
+    width: 100%;
+    float: left;
+    margin: 20px 0;
+}
+
+.mail:hover {
+    text-decoration-line: none;
+}
+
+.addCont span {
+    float: left;
+}
+
+.addCont p {
+    font-size: 14px;
+    text-align: left;
+    color: #615e5e;
+    line-height: 25px;
+    margin-left: 30px;
+    background: none;
+    padding: 0;
+}
+
+.addHead {
+    width: 100%;
+    float: left;
+    padding: 5px 0;
+}
+
+.addHead h3 {
+    width: 100%;
+    float: left;
+    color: #9a9696;
+}
+
+.title-line {
+    padding: 10px 0 0;
+    float: left;
+}
+
+.title-line:before {
+    background: #c4c8cb;
+    content: "";
+    display: block;
+    height: 1px;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.title-line:after {
+    background: #74c044;
+    content: "";
+    display: block;
+    height: 3px;
+    position: relative;
+    top: -2px;
+    float: left;
+    width: 25px;
+}
+
+.addCont ul {
+    width: 100%;
+    float: left;
+}
+
+.addCont ul li {
+    width: auto;
+    float: left;
+    list-style: none;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

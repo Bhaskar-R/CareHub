@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="icon" href="images/hc.ico">
+    <title>Random Hospital</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.php">
+            <img src="images/hc.png" alt="Hospital-Logo" width="76px">
+            Random Hospital
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-list px-2">
+                    <a class="nav-link" href="index.php">HOME</a>
+                </li>
+                <li class="nav-list px-2">
+                    <a class="nav-link" href="doctors.php">DOCTORS</a>
+                </li>
+                <li class="nav-list px-2">
+                    <a class="nav-link" href="index.php#careers">CAREERS</a>
+                </li>
+                <li class="nav-list px-2">
+                    <a class="nav-link" href="index.php#donate">DONATE</a>
+                </li>
+                <li class="nav-list px-2">
+                    <a class="nav-link" href="index.php#healthtips">HEALTH TIPS</a>
+                </li>
+                <li class="nav-list px-2">
+                    <a class="nav-link" href="index.php#about-us">ABOUT US</a>
+                </li>
+                <li class="nav-list px-2">
+                    <a class="nav-link" href="contact-us.php">CONTACT US</a>
+                </li>
+            </ul>
+            <form class="form-inline pr-2">
+                <button class="btn btn-outline-success " type="button">SIGN IN</button>
+                <button class="btn btn-outline-success " type="button">SIGN UP</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="py-5 text-center">
+            
+            <h2>PAYMENT GATEWAY</h2>
+            
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 order-md-1">
+                <h4 class="mb-3">Details</h4>
+                <form class="needs-validation" novalidate>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="firstName">First name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                                Valid first name is required.
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="lastName">Last name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                                Valid last name is required.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email">Email <span class="text-muted">(Optional)</span></label>
+                        <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                        <div class="invalid-feedback">
+                            Please enter a valid email address for shipping updates.
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-5 mb-3">
+                            <label for="country">Country</label>
+                            <select class="custom-select d-block w-100" id="country" required>
+                                <option value="">Choose...</option>
+                                <option>India</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select a valid country.
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="state">State</label>
+                            <select class="custom-select d-block w-100" id="state" required>
+                                <option value="">Choose...</option>
+                                <option>Andhra Pradesh</option>
+                                <option>Tamil Nadu</option>
+                                <option>Kerala</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please provide a valid state.
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="zip">Zip</label>
+                            <input type="text" class="form-control" id="zip" placeholder="" required>
+                            <div class="invalid-feedback">
+                                Zip code required.
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="mb-4">
+
+                    <h4 class="mb-3">Payment</h4>
+
+                    <div class="d-block my-3">
+                        <div class="custom-control custom-radio">
+                            <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked
+                                required>
+                            <label class="custom-control-label" for="credit">Credit card</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+                            <label class="custom-control-label" for="debit">Debit card</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+                            <label class="custom-control-label" for="paypal">PayPal</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="cc-name">Name on card</label>
+                            <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                            <small class="text-muted">Full name as displayed on card</small>
+                            <div class="invalid-feedback">
+                                Name on card is required
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="cc-number">Credit card number</label>
+                            <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                            <div class="invalid-feedback">
+                                Credit card number is required
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 mb-3">
+                            <label for="cc-expiration">Expiration</label>
+                            <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                            <div class="invalid-feedback">
+                                Expiration date required
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="cc-cvv">CVV</label>
+                            <input type="password" class="form-control" id="cc-cvv" placeholder="" required>
+                            <div class="invalid-feedback">
+                                Security code required
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="mb-4">
+                    <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+                    <br>
+                    <br>
+                </form>
+            </div>
+        </div>
+
+        </html>
