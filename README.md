@@ -1,7 +1,7 @@
 # Project-Hospital
 Hospital Management System 
 <br />
-Link - [https://random-hospital007.000webhostapp.com/]
+Link - [https://randomhospital007.000webhostapp.com/]
 <br />
 Done as Project for DBMS
 <br />
